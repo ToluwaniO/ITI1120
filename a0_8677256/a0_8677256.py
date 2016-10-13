@@ -1,0 +1,6 @@
+# ITI 1120
+# ASSIGNMENT 0
+# OGUNSANYA TOLUWANI
+# 8677256
+
+print('i love to code!')
