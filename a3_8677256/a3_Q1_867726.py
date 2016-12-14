@@ -1,8 +1,14 @@
+#Family name: Ogunsanya Toluwani Damilola
+# Student number:  8677256
+# Course: IT1 1120 
+# Assignment Number 3 Question 1
 def count_pos(u):
     '''
     (list of numbers) -> number
 
     returns the number of positive values in the list
+
+    preconditions: u must be a list of numbers 
     '''
     x = []
 

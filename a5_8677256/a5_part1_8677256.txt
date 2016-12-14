@@ -1,0 +1,8 @@
+#Family name: Ogunsanya Toluwani Damilola
+# Student number:  8677256
+# Course: IT1 1120
+# Assignment Number 5 Part 1
+largest_34(a): Thus function sorts a in nlog2n time returns the answer
+largest_third(a): This function sorts a in nlog2n time and sums in n time. Total is nlog2n + n
+third_at_least(a): This function sorts a in nlog2n time and loops in n time. Total is nlog2n + n
+sum_tri(a,x): This functions loops n times with a nested loop that runs n times. Total is n^2

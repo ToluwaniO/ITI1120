@@ -1,7 +1,14 @@
+#Family name: Ogunsanya Toluwani Damilola
+# Student number:  8677256
+# Course: IT1 1120 
+# Assignment Number 3 Question 3
 def longest_run(l):
     '''
         (list of numbers) -> number
+        
         returns the length of the longest run in the list
+
+        preconditions: l must be a list
     '''
     mLen = 0
 

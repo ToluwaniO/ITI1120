@@ -1,3 +1,8 @@
+#Family name: Ogunsanya Toluwani Damilola
+# Student number:  8677256
+# Course: IT1 1120 
+# Assignment Number 3 Game Question
+
 # In this implementation a card (that is not a 10) is represented
 # by a 2 character string, where the 1st character represents a rank and the 2nd a suit.
 # Each card of rank 10 is represented as a 3 character string, first two are the rank and the 3rd is a suit.
@@ -135,7 +140,7 @@ def get_valid_input(n):
      # YOUR CODE GOES HERE
      
      try:
-         choice = int(input('Give me a number that is between 1 and ' +  str(n) + ': '))
+         choice = int(input('\nGive me a number that is between 1 and ' +  str(n) + ': '))
 
      except:
          choice = int(input('Invalid input!' + 'Give me a number that is between 1 and ' +  str(n) + ': '))
@@ -184,25 +189,31 @@ def play_game():
              print_deck(human)
 
              #GET INPUT
-             print('I have', len(dealer), 'cards. If 1 stands for my first card and\n')
-             print(len(dealer), 'stands for my last card, which of my cards would you like?')
-
-             choice = get_valid_input(len(dealer))
-             print('Here is my card,', dealer[choice])
+             if(len(dealer)>1):
+                 print('I have', len(dealer), 'cards. If 1 stands for my first card and\n')
+                 print(len(dealer), 'stands for my last card, which of my cards would you like?')
+                 choice = get_valid_input(len(dealer))
+             elif len(dealer) == 1:
+                 print('I have', len(dealer), 'card left.')
+                 choice = 0
+             else:
+                 choice = get_valid_input(len(dealer))
+                 
+             print('\nHere is my card,', dealer[choice])
 
              human.append(dealer.pop(choice))
 
              #print decck again
-             print('Here is your new deck')
+             print('\nHere is your new deck')
              print_deck(human)
              
              human = remove_pairs(human)
 
-             print('After removing pairs and shuffling, your deck of cards is: ')
+             print('\nAfter removing pairs and shuffling, your deck of cards is: ')
              print_deck(human)
 
          else:
-             print(50*'*','\nMY turn\n')
+             print(50*'*','\nMy turn\n')
 
              #GET INPUT
 

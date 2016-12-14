@@ -1,0 +1,277 @@
+﻿PART 1
+=========================
+QUESTION 1
+
+>>>Enter a list of numbers separated by comas: 1,2,0,3,0,4
+There are 4 positive numbers in your list
+
+>>> Enter a list of numbers separated by comas: 1,-2,9
+There are 2 positive numbers in your list
+
+
+QUESTION 2
+
+>>> Please input a list of numbers separated by commas: 1,4,3,3,4
+True
+>>> Please input a list of numbers separated by commas: 1,2,3,3,3,4,6,5
+True
+>>> Please input a list of numbers separated by commas: 1,2,3,4,3,2
+False
+
+QUESTION 3
+
+>>> Enter a list of numbers separated by comas:  1,1,2,3,3,3,3,3,6,5
+5
+>>> Enter a list of numbers separated by comas: 6,6,7,1,1,1,1,4, 1
+4
+>>> Enter a list of numbers separated by comas: 6,2,4,8,6
+1
+
+
+
+PART 2 - CARD GAME
+=====================
+
+>>> Hello. My name is Robot and I am the dealer.
+Welcome to my card game!
+Your current deck of cards is:
+
+ 5♢  J♠  2♡  9♢  9♡  J♢  3♣  10♢  10♡  5♣  4♣  2♠  A♠  3♠  3♢  Q♢  K♠  8♡  8♠  8♢  10♣  A♢  6♠  10♠  J♣  7♡   
+
+Do not worry. I cannot see the order of your cards
+Now discard all the pairs from your deck. I will do the same.
+
+Press enter to continue. 
+
+************************************************** 
+Your turn 
+Your current deck of cards is
+
+
+ K♠  J♣  Q♢  8♢  4♣  6♠  3♢  7♡   
+
+I have 7 cards. If 1 stands for my first card and
+
+7 stands for my last card, which of my cards would you like?
+
+Give me a number that is between 1 and 7: 3
+
+Here is my card, 4♢
+
+Here is your new deck
+
+ K♠  J♣  Q♢  8♢  4♣  6♠  3♢  7♡  4♢   
+
+
+After removing pairs and shuffling, your deck of cards is: 
+
+ 3♢  Q♢  J♣  6♠  K♠  8♢  7♡   
+
+************************************************** 
+My turn
+
+I took your 4th card
+************************************************** 
+Your turn 
+Your current deck of cards is
+
+
+ 3♢  Q♢  J♣  K♠  8♢  7♡   
+
+I have 5 cards. If 1 stands for my first card and
+
+5 stands for my last card, which of my cards would you like?
+
+Give me a number that is between 1 and 5: 2
+
+Here is my card, J♡
+
+Here is your new deck
+
+ 3♢  Q♢  J♣  K♠  8♢  7♡  J♡   
+
+
+After removing pairs and shuffling, your deck of cards is: 
+
+ 7♡  K♠  Q♢  3♢  8♢   
+
+************************************************** 
+My turn
+
+I took your 2nd card
+************************************************** 
+Your turn 
+Your current deck of cards is
+
+
+ 7♡  Q♢  3♢  8♢   
+
+I have 3 cards. If 1 stands for my first card and
+
+3 stands for my last card, which of my cards would you like?
+
+Give me a number that is between 1 and 3: 2
+
+Here is my card, 3♡
+
+Here is your new deck
+
+ 7♡  Q♢  3♢  8♢  3♡   
+
+
+After removing pairs and shuffling, your deck of cards is: 
+
+ 7♡  8♢  Q♢   
+
+************************************************** 
+My turn
+
+I took your 2nd card
+************************************************** 
+Your turn 
+Your current deck of cards is
+
+
+ 7♡  Q♢   
+
+I have 1 card left.
+
+Here is my card, 7♠
+
+Here is your new deck
+
+ 7♡  Q♢  7♠   
+
+
+After removing pairs and shuffling, your deck of cards is: 
+
+ Q♢   
+
+I won, I have no cards left
+
+
+>>> Hello. My name is Robot and I am the dealer.
+Welcome to my card game!
+Your current deck of cards is:
+
+ 7♢  K♢  3♢  10♡  J♠  9♠  2♣  3♣  7♣  5♣  9♡  J♢  8♡  6♢  6♣  4♠  9♣  A♡  7♠  A♢  A♠  4♡  A♣  J♡  9♢  3♡   
+
+Do not worry. I cannot see the order of your cards
+Now discard all the pairs from your deck. I will do the same.
+
+Press enter to continue. 
+
+************************************************** 
+Your turn 
+Your current deck of cards is
+
+
+ 10♡  7♠  J♡  3♡  2♣  5♣  K♢  8♡   
+
+I have 9 cards. If 1 stands for my first card and
+
+9 stands for my last card, which of my cards would you like?
+
+Give me a number that is between 1 and 9: 3
+
+Here is my card, J♣
+
+Here is your new deck
+
+ 10♡  7♠  J♡  3♡  2♣  5♣  K♢  8♡  J♣   
+
+
+After removing pairs and shuffling, your deck of cards is: 
+
+ K♢  10♡  2♣  3♡  5♣  7♠  8♡   
+
+************************************************** 
+My turn
+
+I took your 7th card
+************************************************** 
+Your turn 
+Your current deck of cards is
+
+
+ K♢  10♡  2♣  3♡  5♣  7♠   
+
+I have 7 cards. If 1 stands for my first card and
+
+7 stands for my last card, which of my cards would you like?
+
+Give me a number that is between 1 and 7: 2
+
+Here is my card, 2♠
+
+Here is your new deck
+
+ K♢  10♡  2♣  3♡  5♣  7♠  2♠   
+
+
+After removing pairs and shuffling, your deck of cards is: 
+
+ K♢  10♡  3♡  7♠  5♣   
+
+************************************************** 
+My turn
+
+I took your 1st card
+************************************************** 
+Your turn 
+Your current deck of cards is
+
+
+ 10♡  3♡  7♠  5♣   
+
+I have 5 cards. If 1 stands for my first card and
+
+5 stands for my last card, which of my cards would you like?
+
+Give me a number that is between 1 and 5: 3
+
+Here is my card, 7♡
+
+Here is your new deck
+
+ 10♡  3♡  7♠  5♣  7♡   
+
+
+After removing pairs and shuffling, your deck of cards is: 
+
+ 3♡  10♡  5♣   
+
+************************************************** 
+My turn
+
+I took your 2nd card
+************************************************** 
+Your turn 
+Your current deck of cards is
+
+
+ 3♡  5♣   
+
+I have 3 cards. If 1 stands for my first card and
+
+3 stands for my last card, which of my cards would you like?
+
+Give me a number that is between 1 and 3: 2
+
+Here is my card, 5♠
+
+Here is your new deck
+
+ 3♡  5♣  5♠   
+
+
+After removing pairs and shuffling, your deck of cards is: 
+
+ 3♡   
+
+************************************************** 
+My turn
+
+I took your 1st card
+You won, you have no cards left
+

@@ -1,3 +1,7 @@
+#Family name: Ogunsanya Toluwani Damilola
+# Student number:  8677256
+# Course: IT1 1120 
+# Assignment Number 3 Question 2
 def two_length_run(l):
     '''
         (list of numbers) -> bool

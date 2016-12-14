@@ -1,0 +1,68 @@
+#Family name: Ogunsanya Toluwani Damilola
+# Student number:  8677256
+# Course: IT1 1120
+# Assignment Number 5 Part 2
+
+import a5_part2_8677256 as n
+
+c=n.Canvas()
+r1=n.Rectangle(n.Point(1,1), n.Point(2,2), "blue")
+r2=n.Rectangle(n.Point(1.5,1.5), n.Point(4,4), "blue")
+
+r3=n.Rectangle(n.Point(-2,-2), n.Point(2,1.5), "blue")
+
+r4=n.Rectangle(n.Point(0,-100),n.Point(1.5,100), "yellow")
+
+c.add_one_rectangle(r1)
+c.add_one_rectangle(r2)
+c.add_one_rectangle(r3)
+c.add_one_rectangle(r4)
+print('common-point',c.common_point())
+
+
+c=n.Canvas()
+r1=n.Rectangle(n.Point(1,1), n.Point(2,2), "blue")
+r2=n.Rectangle(n.Point(1.5,1.5), n.Point(4,4), "blue")
+r3=n.Rectangle(n.Point(-2,-2), n.Point(2,1.5), "blue")
+r4=n.Rectangle(n.Point(0,-100),n.Point(1.5,100), "yellow")
+c.add_one_rectangle(r1)
+c.add_one_rectangle(r2)
+c.add_one_rectangle(r3)
+c.add_one_rectangle(r4)
+print(c.common_point())
+
+
+c=n.Canvas()
+r1=n.Rectangle(n.Point(-2,-2), n.Point(-1,2), "blue")
+r2=n.Rectangle(n.Point(-2,-2), n.Point(2,-1), "blue")
+r3=n.Rectangle(n.Point(1,-2), n.Point(2,2), "blue")
+r4=n.Rectangle(n.Point(-2,1), n.Point(2,2), "blue")
+c.add_one_rectangle(r1)
+c.add_one_rectangle(r2)
+c.add_one_rectangle(r3)
+c.add_one_rectangle(r4)
+print(c.common_point())
+
+//////////////////////////////////////////////////////
+
+True
+True
+True
+True
+True
+True
+common-point True
+True
+True
+True
+True
+True
+True
+True
+True
+False
+True
+True
+False
+True
+True
